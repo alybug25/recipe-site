@@ -1,0 +1,77 @@
+body {
+    /* background-color: red; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: blue; */
+}
+
+.nav-center {
+    width: 90vw;
+    max-width: 1120px;
+    /* background: red; */
+}
+
+.nav-header {
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: green; */
+}
+
+/* logo and menu btn*/
+.nav-header img {
+    width: 200px;
+    /* background: red; */
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    height: 0;
+    overflow: hidden;
+    /* transition */
+}
+
+.show-links {
+    height: 310px;
+}
+
+.nav-link {
+    display: block;
+    text-align: center;
+    padding: 1rem 0;
+    border-top: 1px solid grey;
+}
+
+/* apply this styling only when screen is at least 992px */
+@media screen and (min-width:992px) {
+    /* hide toggle button */
+    .nav-btn {
+        display: none;
+    }
+
+    .nav-bar {
+        height: 6rem;
+    }
+
+    .nav-center {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-header {
+        height: auto;
+        margin-right: 2rem;
+    }
+}
+
