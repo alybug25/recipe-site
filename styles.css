@@ -1,77 +1,74 @@
+/* #432818, #ede0d4 */
+
 body {
-    /* background-color: red; */
-}
-
-.navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background: blue; */
-}
-
-.nav-center {
+    font-family: "Kiwi Maru", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #432818;
+    margin: 0 auto;
     width: 90vw;
-    max-width: 1120px;
-    /* background: red; */
+
 }
 
-.nav-header {
-    height: 6rem;
+header {
+    background-color: #ede0d4;
+    height: 100px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* background-color: green; */
+    flex-direction: row;
+    margin-bottom: 20px;
 }
 
-/* logo and menu btn*/
-.nav-header img {
-    width: 200px;
-    /* background: red; */
+.logo {
+    margin: 0 70px 0 30px;
+    text-align: left;
 }
 
-.nav-logo {
-    display: flex;
-    align-items: center;
+.nav-container {
+    height: 100px;
 }
 
 .nav-links {
+    margin-top: 30px;
+    padding: 0;
+    list-style-type: none;
     display: flex;
-    flex-direction: column;
-    height: 0;
-    overflow: hidden;
-    /* transition */
-}
-
-.show-links {
-    height: 310px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-link {
-    display: block;
+    margin: 10px 10px;
+    font-size: 1.25rem;
+}
+
+.recipes-list {
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.recipe {
+    margin: 20px 20px;
+    width: 250px;
     text-align: center;
-    padding: 1rem 0;
-    border-top: 1px solid grey;
 }
 
-/* apply this styling only when screen is at least 992px */
-@media screen and (min-width:992px) {
-    /* hide toggle button */
-    .nav-btn {
-        display: none;
-    }
-
-    .nav-bar {
-        height: 6rem;
-    }
-
-    .nav-center {
-        display: flex;
-        align-items: center;
-    }
-
-    .nav-header {
-        height: auto;
-        margin-right: 2rem;
-    }
+a {
+    text-decoration: none;
+    color: #432818;
 }
 
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+/* @media only screen and (max-width: 730px){
+    .recipes-list {
+        flex-wrap: wrap;
+    }
+} */
