@@ -1,17 +1,14 @@
-/* #432818, #ede0d4 */
-
 body {
     font-family: "Kiwi Maru", serif;
     font-weight: 400;
     font-style: normal;
     color: #432818;
     margin: 0 auto;
-    width: 90vw;
-
 }
 
 header {
     background-color: #ede0d4;
+    width: 100vw;
     height: 100px;
     display: flex;
     flex-direction: row;
@@ -44,6 +41,7 @@ header {
 
 .recipes-list {
     width: 90vw;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -61,14 +59,53 @@ a {
     color: #432818;
 }
 
-img {
+.recipe-img {
     width: 250px;
     height: 250px;
     border-radius: 10px;
 }
 
-/* @media only screen and (max-width: 730px){
-    .recipes-list {
-        flex-wrap: wrap;
-    }
-} */
+footer {
+    bottom: 0;
+    background-color: #432818;
+    color: #ede0d4;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact {
+    margin-left: 30px;
+}
+
+.contact-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-link {
+    color: #ede0d4;
+    margin: 10px 10px;
+    font-size: 1.25rem;
+} 
+
+.about-page {
+    margin: 30px 20px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img {
+    width: 300px;
+    margin: 10px 20px;
+    border-radius: 20px;
+}
