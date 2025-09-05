@@ -50,7 +50,7 @@ header {
 
 .recipe {
     margin: 20px 20px;
-    width: 250px;
+    width: 300px;
     text-align: center;
 }
 
@@ -60,9 +60,10 @@ a {
 }
 
 .recipe-img {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border-radius: 10px;
+    margin: 10px 10px;
 }
 
 footer {
@@ -73,6 +74,7 @@ footer {
     height: 100px;
     display: flex;
     flex-direction: row;
+    margin-top: 40px;
 }
 
 .contact {
@@ -93,6 +95,8 @@ footer {
     font-size: 1.25rem;
 } 
 
+/* about page */
+
 .about-page {
     margin: 30px 20px;
 }
@@ -108,4 +112,45 @@ footer {
     width: 300px;
     margin: 10px 20px;
     border-radius: 20px;
+}
+
+/* single recipe page */
+
+.recipe-hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+.recipe-hero-text {
+    margin-left: 10px;
+}
+
+main {
+    margin: 20px 30px;
+}
+
+.recipe-prep {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.dish-name {
+    margin: 5px 0;
+}
+
+.recipe-infos {
+    margin-bottom: 10px;
+}
+
+.recipe-info {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.ingredients, .equipment, .instructions {
+    margin: 10px 20px;
 }
